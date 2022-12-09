@@ -1,0 +1,48 @@
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.sidebar-container{
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    margin-left: 20px;
+    padding: 50px;
+    border-radius: 5px;
+    border-right: 2px;
+}
+
+.sidebar-options{
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar-option{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding: 5px;
+    text-decoration: none;
+}
+
+
+a:hover{
+    border-left:5px solid rgba(254,22,56);
+    background-color: rgba(254,22,56,0.2);
+    color: black;
+    cursor: pointer;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.link:hover{
+    color:indianred;
+}
+

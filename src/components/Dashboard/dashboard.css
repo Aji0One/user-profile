@@ -1,0 +1,28 @@
+.dashboard{
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+}
+
+.dashboard-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 3%;
+    
+}
+
+.main{
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+img{
+    border-radius: 5px;
+
+}
+
+.main-option{
+    font-size: 30px;
+}
